@@ -1,0 +1,16 @@
+{
+ "name":"point-to-city",
+  "version":"0.0.1",
+  "dependencies": {
+    "request": ">=2.11.0"
+  },
+  "maintainers": {
+    "name": "Francisco Jordano",
+    "email": "francisco@jordano.es"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "lib": "./lib/"
+  },
+  "description": "Simple module to get the city name from a point (lat,lon). Based in Yahoo! Place Finder (requires key from Yahoo!)"
+}
