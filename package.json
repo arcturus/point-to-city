@@ -15,6 +15,7 @@
   "description": "Simple module to get the city name from a point (lat,lon). Based in Yahoo! Place Finder (requires key from Yahoo!)",
   "url": "https://github.com/arcturus/point-to-city",
   "keywords": ["yahoo", "placefinder", "point", "city", "geolocation", "latitude", "longitude"],
-  "repository": {"type": "git", "url": "https://github.com/arcturus/point-to-city.git"}
+  "repository": {"type": "git", "url": "https://github.com/arcturus/point-to-city.git"},
   "bugs": {"url": "https://github.com/arcturus/point-to-city/issues"},
+  "licenses": [{"type": "BSD", "url": "https://github.com/arcturus/point-to-city/blob/master/LICENSE"}]
 }
