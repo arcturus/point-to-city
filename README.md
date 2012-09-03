@@ -17,5 +17,5 @@ Usage
 
 Build status
 ------------
-.. image:: https://secure.travis-ci.org/arcturus/point-to-city.png
-    :target: http://travis-ci.org/arcturus/point-to-city
+
+[![Status](https://secure.travis-ci.org/arcturus/point-to-city.png?branch=master)](http://travis-ci.org/arcturus/point-to-city)
