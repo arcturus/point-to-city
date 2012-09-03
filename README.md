@@ -14,3 +14,8 @@ Usage
 	$ var ptc = require('./point_to_city');
 	$ ptc.init('YOUR APPID');
 	$ ptc.point_to_city(lat, lon, onSuccess, onError);
+
+Build status
+------------
+.. image:: https://secure.travis-ci.org/arcturus/point-to-city.png
+    :target: http://travis-ci.org/arcturus/point-to-city
