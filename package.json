@@ -2,7 +2,8 @@
  "name":"point-to-city",
   "version":"0.0.1",
   "dependencies": {
-    "request": ">=2.11.0"
+    "request": ">=2.11.0",
+    "mocha": ">=1.4.2"
   },
   "maintainers": {
     "name": "Francisco Jordano",
@@ -11,6 +12,9 @@
   "main": "./lib/index.js",
   "directories": {
     "lib": "./lib/"
+  },
+  "scripts": {
+    "test": "mocha -u tdd"
   },
   "description": "Simple module to get the city name from a point (lat,lon). Based in Yahoo! Place Finder (requires key from Yahoo!)",
   "url": "https://github.com/arcturus/point-to-city",
