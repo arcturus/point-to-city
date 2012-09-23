@@ -31,6 +31,17 @@ suite('point_to_map', function() {
     });
   });
 
+  test('get know city different locale', function(done) {
+    subject = point_to_city.init(APPID, 'es_es');
+    subject.point_to_city(KNOW_CITY.lat, KNOW_CITY.lon, function success(response) {
+      assert.equal(response.city, 'Londres');
+      done();
+    }, function error(error) {
+      assert.fail(error, KNOW_CITY.name, 'Got an error', '==');
+      done();
+    });
+  });
+
   test('get unknown point', function(done) {
     subject.point_to_city(UNKNOWN_POINT.lat, UNKNOWN_POINT.lon, function success(response) {
       assert.equal(response.city, UNKNOWN_POINT.name);
